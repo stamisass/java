@@ -1,0 +1,74 @@
+#canvas{
+ background-color: 	#ffffd1;
+position: absolute;
+
+}
+
+#menu{
+ 
+    height: 80px;
+    background-image: url("colourful.jpg");
+}
+
+
+.btn-group .btn {
+position: relative;
+    margin-right:60px;
+}
+.btn{
+    background-color:transparent;
+    color:#000;
+}
+
+.btn-circle {
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    padding: 6px 0;
+    font-size: 12px;
+    line-height: 1.428571429;
+    border-radius: 15px;
+}
+.btn-circle.btn-lg {
+    width: 90px;
+    height: 60px;
+    padding: 13px 13px;
+    font-size: 18px;
+    line-height: 1.33;
+    border-radius: 15px;
+	margin-left: -15px;
+	margin-top: 10px;
+}
+.radios{
+	float: right;
+	background-color: red;
+	width:118px
+}
+.radios #my_line{
+    border: none;
+    background-image: url("lineicon.png");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.radios #my_circle{
+    border: none;
+    background-image: url("circleicon.png");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.radios #my_curve{
+    border: none;
+    background-image: url("curveicon.png");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.radios #my_polygon{
+    border: none;
+    background-image: url("polygonicon.png");
+    background-repeat: no-repeat;
+    background-position: center;
+	
+}
+
+

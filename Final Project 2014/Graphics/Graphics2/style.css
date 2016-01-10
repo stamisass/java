@@ -1,0 +1,102 @@
+#canvas{
+ background-color: 	#ffffd1;
+position: absolute;
+
+
+}
+
+#menu{
+ 
+    height: 80px;
+    background-image: url("background.png");
+	    background-size: cover;
+}
+
+.thumb {
+    height: 75px;
+    border: 1px solid #000;
+    margin: 10px 5px 0 0;
+} 
+
+.btn-group .btn {
+position: relative;
+    margin-right:60px;
+}
+.btn{
+    background-color:transparent;
+    color:#000;
+}
+
+.btn-circle {
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    padding: 6px 0;
+    font-size: 12px;
+    line-height: 1.428571429;
+    border-radius: 15px;
+}
+.btn-circle.btn-lg {
+    width: 120px;
+    height: 50px;
+    padding: 13px 13px;
+    font-size: 18px;
+    line-height: 1.33;
+    border-radius: 15px;
+	margin-left: -15px;
+	margin-top: 0px;
+}
+.radios{
+	float: right;
+	background-image: url("background1.png");
+	width:118px;
+	    margin-top: -29px;
+}
+.radios #my_move{
+    border: none;
+    background-image: url("move.png");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.radios #my_rotation{
+    border: none;
+    background-image: url("rotation.png");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.radios #my_scaling{
+    border: none;
+    background-image: url("scaling.png");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.radios #my_shearing{
+    border: none;
+    background-image: url("shearing.png");
+    background-repeat: no-repeat;
+    background-position: center;
+	
+}
+.radios #my_refX{
+    border: none;
+    background-image: url("refX.png");
+    background-repeat: no-repeat;
+    background-position: center;
+	
+}
+.radios #my_refY{
+    border: none;
+    background-image: url("refy.png");
+    background-repeat: no-repeat;
+    background-position: center;
+	
+}
+.radios #angle{
+        width: 70px;
+	
+}
+
+
+
+

@@ -1,0 +1,85 @@
+<!-- Tamir Abu salah 201260148   AND   Shacar romi 305522948-->
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Paint</title>
+    <link rel="stylesheet" text="css\text" href="style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="drawfunctions.js"></script>
+    <script src="jscolor.js"></script>
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+
+</head>
+<body>
+
+    <div id="menu">
+        <div id="logo"></div>
+		<br><br><br><br>
+            <div data-toggle="buttons" class="radios" >
+				
+                <label class="btn btn-default btn-circle btn-lg" id="my_line">
+                    <input type="radio" id="line" name="shape" value="line"/>
+                </label>
+				<br><br>
+                <label class="btn btn-default btn-circle btn-lg" id="my_circle">
+                    <input type="radio" id="circle" name="shape" value="circle"/>
+                </label>
+				<br><br>
+                <label class="btn btn-default btn-circle btn-lg" id="my_curve">
+                    <input type="radio" id="curve" name="shape" value="curve" />
+                </label>
+				<br><br>
+                <label class="btn btn-default btn-circle btn-lg" id="my_polygon">
+                    <input type="radio" id="polygon" name="shape" value="polygon" />
+                </label>
+				<br><br>
+
+            Polygon Lines:<br> <select  id="poly_lines" name="number_of_poly">
+                            <option><font color="black">3</font></option>
+                            <option>4</option>
+                            <option>5</option>
+                            <option>6</option>
+                            <option>7</option>
+                            <option>8</option>
+                            <option>9</option>
+							<option>10</option>
+						    <option>11</option>
+							<option>12</option>
+							<option>13</option>
+							<option>14</option>
+							<option>15</option>
+						    <option>20</option>
+							<option>30</option>
+							<option>40</option>
+							<option>50</option>
+							
+                        </select>
+						<br><br>
+            Curve Lines:<br> <select id="curve_lines" name="number_of_curve">
+                <option>4</option>
+                <option>5</option>
+                <option>6</option>
+                <option>7</option>
+                <option>8</option>
+                <option>9</option>
+                <option>10</option>
+                <option>11</option>
+                <option>12</option>
+                <option>13</option>
+                <option>15</option>
+                <option>20</option>
+                <option>22</option>
+                <option>25</option>
+                <option>30</option>
+            </select>
+		<br><br>
+            <button class="btn  btn-default btn-sm" type="button" onclick="clearCanvas()">Clear</button>
+
+                </div>
+
+    </div>
+<canvas id="canvas" width="1248" height="550"  ></canvas>
+</body>
+</html>
